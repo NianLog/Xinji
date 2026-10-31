@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="xinjiLayersTitle xinjiLayersDesc">
+  <title id="xinjiLayersTitle">心记记忆分层：四层处理，一层治理</title>
+  <desc id="xinjiLayersDesc">从下往上是 L0 原始记录、L1 整理后的记忆、L2 关系档案、L3 开口前的判断，右侧是贯穿所有层的 L4 治理与观测。上层都可以从 L0 重建，最底下的原话不能改。</desc>
+  <defs>
+    <linearGradient id="layersPaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdfaf4"/>
+      <stop offset="1" stop-color="#f7f0e5"/>
+    </linearGradient>
+    <radialGradient id="layersGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6e5dc" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#f6e5dc" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="layerArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#356d6a"/>
+    </marker>
+  </defs>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="658.5" rx="28" fill="url(#layersPaper)" stroke="#e3d9c8" stroke-width="1.5"/>
+  <ellipse cx="1070" cy="620" rx="280" ry="140" fill="url(#layersGlow)"/>
+
+  <g font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="64" y="58" font-size="12.5" font-weight="700" fill="#cf6b4f" letter-spacing="3">ARCHITECTURE / 记忆分层</text>
+    <text x="64" y="106" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong',serif" font-size="34" font-weight="700" fill="#1f2d2b">四层处理，一层治理</text>
+    <text x="64" y="138" font-size="15" fill="#6f7d77">从原始记录长成关系记忆；越往上越会判断，越往下越不可变。</text>
+  </g>
+
+  <g stroke="#b99a62" stroke-width="1" stroke-dasharray="2 5" opacity="0.6">
+    <path d="M950 217 H970"/>
+    <path d="M950 327 H970"/>
+    <path d="M950 437 H970"/>
+    <path d="M950 547 H970"/>
+  </g>
+
+  <g font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <rect x="122" y="170" width="828" height="94" rx="18" fill="#eef4f1" stroke="#d7e5df"/>
+    <rect x="122" y="170" width="6" height="94" rx="3" fill="#2e6b64"/>
+    <text x="146" y="200" font-size="12" font-weight="700" fill="#2e6b64" letter-spacing="2.5">L3</text>
+    <text x="146" y="228" font-size="20" font-weight="700" fill="#1f2d2b">开口前的判断</text>
+    <text x="146" y="250" font-size="13" fill="#5f706a">决定这一轮：提不提、提哪几条；边界一票否决。</text>
+    <g font-size="12" fill="#2e6b64" text-anchor="middle">
+      <rect x="626" y="204" width="88" height="26" rx="13" fill="#f9fcfb" stroke="#d7e5df"/>
+      <text x="670" y="221">该不该提</text>
+      <rect x="726" y="204" width="98" height="26" rx="13" fill="#f9fcfb" stroke="#d7e5df"/>
+      <text x="775" y="221">挑 3–5 条</text>
+      <rect x="836" y="204" width="82" height="26" rx="13" fill="#f9fcfb" stroke="#d7e5df"/>
+      <text x="877" y="221">8k 预算</text>
+    </g>
+
+    <rect x="122" y="280" width="828" height="94" rx="18" fill="#e7f0ec" stroke="#d2e2db"/>
+    <rect x="122" y="280" width="6" height="94" rx="3" fill="#245550"/>
+    <text x="146" y="310" font-size="12" font-weight="700" fill="#245550" letter-spacing="2.5">L2</text>
+    <text x="146" y="338" font-size="20" font-weight="700" fill="#1f2d2b">关系档案</text>
+    <text x="146" y="360" font-size="13" fill="#5f706a">只保留现在有效的版本：阶段、边界、承诺、话题。</text>
+    <g font-size="12" fill="#245550" text-anchor="middle">
+      <rect x="590" y="314" width="88" height="26" rx="13" fill="#f7fbf9" stroke="#d2e2db"/>
+      <text x="634" y="331">关系阶段</text>
+      <rect x="690" y="314" width="60" height="26" rx="13" fill="#f7fbf9" stroke="#d2e2db"/>
+      <text x="720" y="331">边界</text>
+      <rect x="762" y="314" width="60" height="26" rx="13" fill="#f7fbf9" stroke="#d2e2db"/>
+      <text x="792" y="331">承诺</text>
+      <rect x="834" y="314" width="88" height="26" rx="13" fill="#f7fbf9" stroke="#d2e2db"/>
+      <text x="878" y="331">开放话题</text>
+    </g>
+
+    <rect x="122" y="390" width="828" height="94" rx="18" fill="#f2f1e7" stroke="#e3dfcf"/>
+    <rect x="122" y="390" width="6" height="94" rx="3" fill="#a48b62"/>
+    <text x="146" y="420" font-size="12" font-weight="700" fill="#a48b62" letter-spacing="2.5">L1</text>
+    <text x="146" y="448" font-size="20" font-weight="700" fill="#1f2d2b">整理后的记忆</text>
+    <text x="146" y="470" font-size="13" fill="#6f6a58">从原话整理出摘要、情景、事实、画像与共同故事。</text>
+    <g font-size="12" fill="#8a6a39" text-anchor="middle">
+      <rect x="566" y="424" width="56" height="26" rx="13" fill="#fbfaf4" stroke="#e3dfcf"/>
+      <text x="594" y="441">摘要</text>
+      <rect x="632" y="424" width="56" height="26" rx="13" fill="#fbfaf4" stroke="#e3dfcf"/>
+      <text x="660" y="441">情景</text>
+      <rect x="698" y="424" width="56" height="26" rx="13" fill="#fbfaf4" stroke="#e3dfcf"/>
+      <text x="726" y="441">事实</text>
+      <rect x="764" y="424" width="56" height="26" rx="13" fill="#fbfaf4" stroke="#e3dfcf"/>
+      <text x="792" y="441">画像</text>
+      <rect x="830" y="424" width="88" height="26" rx="13" fill="#fbfaf4" stroke="#e3dfcf"/>
+      <text x="874" y="441">共同故事</text>
+    </g>
+
+    <rect x="122" y="500" width="828" height="94" rx="18" fill="#f8e8e1" stroke="#edcfc3" stroke-width="1.5"/>
+    <rect x="122" y="500" width="6" height="94" rx="3" fill="#cf6b4f"/>
+    <text x="146" y="530" font-size="12" font-weight="700" fill="#b9583d" letter-spacing="2.5">L0</text>
+    <text x="146" y="558" font-size="20" font-weight="700" fill="#1f2d2b">原始记录</text>
+    <text x="146" y="580" font-size="13" fill="#8b6656">用户说的、助手说的、纠正与删除操作；只追加，不改写。</text>
+    <g font-size="12" fill="#9a4f39" text-anchor="middle">
+      <rect x="548" y="534" width="80" height="26" rx="13" fill="#fff8f4" stroke="#edcfc3"/>
+      <text x="588" y="551">用户说的</text>
+      <rect x="638" y="534" width="80" height="26" rx="13" fill="#fff8f4" stroke="#edcfc3"/>
+      <text x="678" y="551">助手说的</text>
+      <rect x="728" y="534" width="94" height="26" rx="13" fill="#fff8f4" stroke="#edcfc3"/>
+      <text x="775" y="551">纠正与删除</text>
+      <rect x="832" y="534" width="86" height="26" rx="13" fill="#cf6b4f"/>
+      <text x="875" y="551" fill="#fff7f2">唯一原件</text>
+    </g>
+  </g>
+
+  <g>
+    <path d="M122 547 H88 V217 H112" fill="none" stroke="#356d6a" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 5" marker-end="url(#layerArrow)"/>
+    <path d="M88 327 H112" fill="none" stroke="#356d6a" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 5" marker-end="url(#layerArrow)"/>
+    <path d="M88 437 H112" fill="none" stroke="#356d6a" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 5" marker-end="url(#layerArrow)"/>
+    <text x="76" y="382" transform="rotate(-90 76 382)" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="11.5" fill="#7b8a84" text-anchor="middle">上层都能从 L0 重建</text>
+  </g>
+
+  <g font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <rect x="974" y="170" width="162" height="424" rx="20" fill="#f4ebdc" stroke="#e5d7c0"/>
+    <text x="994" y="200" font-size="12" font-weight="700" fill="#a48b62" letter-spacing="2.5">L4</text>
+    <text x="994" y="226" font-size="19" font-weight="700" fill="#1f2d2b">治理与观测</text>
+    <text x="994" y="246" font-size="11.5" fill="#7b6a50">贯穿所有层</text>
+    <text x="994" y="262" font-size="11.5" fill="#7b6a50">不是处理步骤</text>
+    <path d="M994 276 H1116" stroke="#e4d6bf"/>
+
+    <g font-size="12.5" fill="#5f5140" text-anchor="middle">
+      <rect x="990" y="288" width="130" height="28" rx="14" fill="#fffdf8" stroke="#e4d6bf"/>
+      <text x="1055" y="306">查看</text>
+      <rect x="990" y="322" width="130" height="28" rx="14" fill="#fffdf8" stroke="#e4d6bf"/>
+      <text x="1055" y="340">纠正</text>
+      <rect x="990" y="356" width="130" height="28" rx="14" fill="#fffdf8" stroke="#e4d6bf"/>
+      <text x="1055" y="374">删除</text>
+      <rect x="990" y="390" width="130" height="28" rx="14" fill="#fffdf8" stroke="#e4d6bf"/>
+      <text x="1055" y="408">导出</text>
+      <rect x="990" y="424" width="130" height="28" rx="14" fill="#fffdf8" stroke="#e4d6bf"/>
+      <text x="1055" y="442">重放</text>
+      <rect x="990" y="458" width="130" height="28" rx="14" fill="#fffdf8" stroke="#e4d6bf"/>
+      <text x="1055" y="476">审计</text>
+      <rect x="990" y="492" width="130" height="28" rx="14" fill="#cf6b4f"/>
+      <text x="1055" y="510" fill="#fff7f2" font-weight="600">一键停用</text>
+    </g>
+
+    <path d="M994 536 H1116" stroke="#e4d6bf"/>
+    <text x="1055" y="556" font-size="10.5" fill="#8a7d72" text-anchor="middle">用户隔离 · 跨用户拒绝</text>
+    <text x="1055" y="574" font-size="10.5" fill="#8a7d72" text-anchor="middle">删除后重放，不会复活</text>
+  </g>
+
+  <g font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <path d="M382 626 H470" stroke="#e3cbbf" stroke-linecap="round"/>
+    <path d="M730 626 H818" stroke="#e3cbbf" stroke-linecap="round"/>
+    <text x="600" y="632" font-size="15.5" font-weight="700" fill="#b9583d" text-anchor="middle">上面几层都可以重做，最底下的原话不能改。</text>
+  </g>
+</svg>

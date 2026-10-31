@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="sealRememberTitle sealRememberDesc">
+  <title id="sealRememberTitle">记得住</title>
+  <desc id="sealRememberDesc">一枚青色印章，中间是“记”字。</desc>
+  <circle cx="48" cy="48" r="44" fill="#fbf6ec" stroke="#2e6b64" stroke-width="1.5"/>
+  <circle cx="48" cy="48" r="35" fill="none" stroke="#2e6b64" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="1 4"/>
+  <text x="48" y="62" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong',serif" font-size="40" font-weight="700" fill="#2e6b64" text-anchor="middle">记</text>
+  <circle cx="48" cy="79" r="2.4" fill="#cf6b4f"/>
+</svg>

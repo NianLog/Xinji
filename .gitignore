@@ -1,0 +1,20 @@
+# 内部设计资料：PRD、设计评审与技术探索记录不随公开仓库发布
+/docs/
+.superpowers/
+
+# 本地环境与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+*.log
+
+# 本地预览与临时产物
+.preview/
+*.tmp
+
+# 环境变量
+.env
+.env.*
+!.env.example

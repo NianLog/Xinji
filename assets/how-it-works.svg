@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="xinjiFlowTitle xinjiFlowDesc">
+  <title id="xinjiFlowTitle">心记工作流程：听见、记下、整理、掂量，然后选择说或不说</title>
+  <desc id="xinjiFlowDesc">一次对话先听见当前这句话，把原话存入 L0 原始记录，再在后台整理成摘要、情景、事实、画像和共同故事，最后经过边界与关系判断，选择自然提起三到五条记忆，或者保持沉默。底部列出记得住、说得对、忘得掉三个承诺。</desc>
+  <defs>
+    <linearGradient id="flowPaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdfaf4"/>
+      <stop offset="1" stop-color="#f7f0e5"/>
+    </linearGradient>
+    <radialGradient id="flowGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e3efec" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#e3efec" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="flowShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#1f2d2b" flood-opacity="0.05"/>
+    </filter>
+    <marker id="flowArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#356d6a"/>
+    </marker>
+  </defs>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="618.5" rx="28" fill="url(#flowPaper)" stroke="#e3d9c8" stroke-width="1.5"/>
+  <ellipse cx="1040" cy="70" rx="260" ry="150" fill="url(#flowGlow)"/>
+
+  <g font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="64" y="60" font-size="12.5" font-weight="700" fill="#cf6b4f" letter-spacing="3">HOW IT WORKS / 一次对话</text>
+    <text x="64" y="108" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong',serif" font-size="34" font-weight="700" fill="#1f2d2b">先记住，再决定说不说</text>
+    <text x="64" y="140" font-size="15" fill="#6f7d77">记忆不是把旧事全倒出来，而是知道此刻该不该提。</text>
+
+    <rect x="944" y="72" width="192" height="34" rx="17" fill="#e8f1ee" stroke="#cfe0da"/>
+    <circle cx="964" cy="89" r="3.5" fill="#2e6b64"/>
+    <text x="1044" y="94" font-size="12.5" font-weight="600" fill="#2e6b64" text-anchor="middle">默认沉默 · 边界优先</text>
+  </g>
+
+  <g font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <g filter="url(#flowShadow)">
+      <rect x="60" y="186" width="194" height="212" rx="20" fill="#fffdf8" stroke="#e4dbc9"/>
+    </g>
+    <text x="80" y="218" font-size="11.5" font-weight="700" fill="#b99a62" letter-spacing="2">01</text>
+    <g fill="none" stroke="#b99a62" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="214" y="202" width="22" height="16" rx="5"/>
+      <path d="M221 218 L219 224 L228 218"/>
+      <path d="M220 208 H230"/>
+    </g>
+    <text x="80" y="260" font-size="22" font-weight="700" fill="#1f2d2b">听见</text>
+    <path d="M80 276 H234" stroke="#eee6d8"/>
+    <text x="80" y="302" font-size="13.5" fill="#6f7d77">当前这一句话</text>
+    <text x="80" y="324" font-size="13.5" fill="#6f7d77">意图、时间、人物</text>
+    <rect x="80" y="362" width="80" height="24" rx="12" fill="#f2ede2"/>
+    <text x="120" y="378" font-size="11" fill="#7b6a50" text-anchor="middle">输入 · 此刻</text>
+
+    <g filter="url(#flowShadow)">
+      <rect x="288" y="186" width="194" height="212" rx="20" fill="#fffdf8" stroke="#e4dbc9"/>
+    </g>
+    <text x="308" y="218" font-size="11.5" font-weight="700" fill="#b99a62" letter-spacing="2">02</text>
+    <g fill="none" stroke="#b99a62" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="442" y="202" width="22" height="18" rx="4"/>
+      <path d="M447 209 H459"/>
+      <path d="M447 214 H455"/>
+    </g>
+    <text x="308" y="260" font-size="22" font-weight="700" fill="#1f2d2b">记下</text>
+    <path d="M308 276 H462" stroke="#eee6d8"/>
+    <text x="308" y="302" font-size="13.5" fill="#6f7d77">原话先进 L0</text>
+    <text x="308" y="324" font-size="13.5" fill="#6f7d77">马上确认，不必等整理</text>
+    <rect x="308" y="362" width="106" height="24" rx="12" fill="#f2ede2"/>
+    <text x="361" y="378" font-size="11" fill="#7b6a50" text-anchor="middle">L0 · 原始记录</text>
+
+    <g filter="url(#flowShadow)">
+      <rect x="516" y="186" width="194" height="212" rx="20" fill="#eef4f1" stroke="#d7e5df"/>
+    </g>
+    <text x="536" y="218" font-size="11.5" font-weight="700" fill="#b99a62" letter-spacing="2">03</text>
+    <g fill="none" stroke="#2e6b64" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M670 205 L682 211 L670 217 L658 211 Z"/>
+      <path d="M670 217 L682 223 L670 229 L658 223"/>
+    </g>
+    <text x="536" y="260" font-size="22" font-weight="700" fill="#1f2d2b">整理</text>
+    <path d="M536 276 H690" stroke="#dbe7e1"/>
+    <text x="536" y="302" font-size="13.5" fill="#5f706a">后台慢慢提炼</text>
+    <text x="536" y="324" font-size="13.5" fill="#5f706a">摘要、情景、事实</text>
+    <text x="536" y="346" font-size="13.5" fill="#5f706a">画像与共同故事</text>
+    <rect x="536" y="362" width="104" height="24" rx="12" fill="#dfece7"/>
+    <text x="588" y="378" font-size="11" fill="#2e6b64" text-anchor="middle">L1 + L2 · 派生</text>
+
+    <g filter="url(#flowShadow)">
+      <rect x="744" y="186" width="194" height="212" rx="20" fill="#f8eedf" stroke="#e3cba9"/>
+    </g>
+    <text x="764" y="218" font-size="11.5" font-weight="700" fill="#b07c3d" letter-spacing="2">04</text>
+    <g fill="none" stroke="#9a7b45" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M886 205 H914 L903 217 V228 H897 V217 Z"/>
+      <path d="M891 211 H909" stroke-dasharray="2 3"/>
+    </g>
+    <text x="764" y="260" font-size="22" font-weight="700" fill="#1f2d2b">掂量</text>
+    <path d="M764 276 H918" stroke="#ead9c1"/>
+    <text x="764" y="302" font-size="13.5" fill="#7a684e">先过边界</text>
+    <text x="764" y="324" font-size="13.5" fill="#7a684e">再看关系与相似度</text>
+    <rect x="764" y="362" width="102" height="24" rx="12" fill="#efe0c9"/>
+    <text x="815" y="378" font-size="11" fill="#8a6a39" text-anchor="middle">L3 · 开口判断</text>
+
+    <path d="M254 292 H280" fill="none" stroke="#356d6a" stroke-width="1.8" marker-end="url(#flowArrow)"/>
+    <path d="M482 292 H508" fill="none" stroke="#356d6a" stroke-width="1.8" marker-end="url(#flowArrow)"/>
+    <path d="M710 292 H736" fill="none" stroke="#356d6a" stroke-width="1.8" marker-end="url(#flowArrow)"/>
+    <path d="M938 292 H976" fill="none" stroke="#356d6a" stroke-width="1.8" marker-end="url(#flowArrow)"/>
+
+    <g filter="url(#flowShadow)">
+      <rect x="984" y="186" width="156" height="212" rx="20" fill="#e8f1ee" stroke="#cfe0da"/>
+    </g>
+    <text x="1062" y="218" font-size="11.5" font-weight="700" fill="#2e6b64" letter-spacing="2" text-anchor="middle">两个结局</text>
+    <path d="M1000 234 H1124" stroke="#cfe0da"/>
+    <rect x="1000" y="250" width="124" height="50" rx="14" fill="#2e6b64"/>
+    <text x="1062" y="272" font-size="15" font-weight="700" fill="#f7efe1" text-anchor="middle">自然提起</text>
+    <text x="1062" y="289" font-size="11" fill="#f7efe1" opacity="0.8" text-anchor="middle">挑 3–5 条</text>
+    <rect x="1000" y="312" width="124" height="50" rx="14" fill="#fffdf8" stroke="#d8d0c0"/>
+    <text x="1062" y="334" font-size="15" font-weight="700" fill="#3f514d" text-anchor="middle">保持沉默</text>
+    <text x="1062" y="351" font-size="11" fill="#8a8f8b" text-anchor="middle">不硬塞旧事</text>
+    <text x="1062" y="384" font-size="11.5" fill="#a48b62" text-anchor="middle">两种都算答对</text>
+  </g>
+
+  <g font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+    <rect x="60" y="438" width="1080" height="118" rx="22" fill="#fffdf8" stroke="#e4dbc9"/>
+    <path d="M426 460 V534" stroke="#eee6d8"/>
+    <path d="M790 460 V534" stroke="#eee6d8"/>
+
+    <circle cx="102" cy="486" r="19" fill="#e8f1ee"/>
+    <path d="M102 497 C96 492 90 487 90 480 C90 475 94 472 98 472 C100 472 101 473 102 475 C103 473 104 472 106 472 C110 472 114 475 114 480 C114 487 108 492 102 497 Z" fill="none" stroke="#2e6b64" stroke-width="1.6" stroke-linejoin="round"/>
+    <text x="132" y="482" font-size="17.5" font-weight="700" fill="#1f2d2b">记得住</text>
+    <text x="132" y="508" font-size="12.5" fill="#6f7d77">跨会话、跨月份，关系不断线。</text>
+
+    <circle cx="470" cy="486" r="19" fill="#f8eedf"/>
+    <path d="M470 472 L480 478 V488 L470 500 L460 488 V478 Z" fill="none" stroke="#9a7b45" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M466 483 H474 M470 479 V493" stroke="#9a7b45" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="500" y="482" font-size="17.5" font-weight="700" fill="#1f2d2b">说得对</text>
+    <text x="500" y="508" font-size="12.5" fill="#6f7d77">边界和关系阶段优先于相似度。</text>
+
+    <circle cx="834" cy="486" r="19" fill="#fbede7"/>
+    <g fill="none" stroke="#cf6b4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="824" y="476" width="20" height="20" rx="4"/>
+      <path d="M825 495 L843 477" stroke-dasharray="2 3"/>
+    </g>
+    <circle cx="848" cy="483" r="1.3" fill="#cf6b4f"/>
+    <circle cx="852" cy="490" r="1" fill="#cf6b4f" opacity="0.6"/>
+    <text x="864" y="482" font-size="17.5" font-weight="700" fill="#1f2d2b">忘得掉</text>
+    <text x="864" y="508" font-size="12.5" fill="#6f7d77">删除生效后，补整理也不会复活。</text>
+
+    <text x="600" y="588" font-size="12.5" fill="#8a8f8b" text-anchor="middle">可查看 · 可纠正 · 可删除 · 可导出 · 可重放 · 可停用</text>
+  </g>
+</svg>

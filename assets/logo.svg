@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="xinjiLogoTitle xinjiLogoDesc">
+  <title id="xinjiLogoTitle">心记 Xinji 标志</title>
+  <desc id="xinjiLogoDesc">墨绿色圆角方块中，一颗奶白色的心，心里有三条记忆横线和一颗珊瑚色圆点。</desc>
+  <defs>
+    <linearGradient id="logoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a3f3a"/>
+      <stop offset="1" stop-color="#172421"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="152" height="152" rx="38" fill="url(#logoBg)"/>
+  <rect x="10" y="10" width="140" height="140" rx="32" fill="none" stroke="#f7efe1" stroke-opacity="0.14" stroke-width="1.5"/>
+  <path d="M80 127 C52 107 31 86 31 62 C31 45 44 32 60 32 C69 32 76 37 80 44 C84 37 91 32 100 32 C116 32 129 45 129 62 C129 86 108 107 80 127 Z" fill="#f7efe1"/>
+  <g fill="none" stroke="#244b46" stroke-width="3.4" stroke-linecap="round">
+    <path d="M58 64 H102"/>
+    <path d="M58 76 H102"/>
+    <path d="M58 88 H92"/>
+  </g>
+  <circle cx="80" cy="103" r="4.5" fill="#cf6b4f"/>
+  <circle cx="132" cy="132" r="5" fill="#cf6b4f"/>
+</svg>
