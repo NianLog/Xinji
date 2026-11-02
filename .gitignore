@@ -18,3 +18,25 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 本地心记库与导出（不提交任何人的记忆数据）
+*.db
+*.db-wal
+*.db-shm
+xinji-export-*.json
+
+# LoCoMo 数据集（CC BY-NC 4.0，非商业许可，不随 MIT 仓库分发；见 scripts/fetch_locomo.py）
+bench/data/*.json

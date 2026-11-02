@@ -1,0 +1,293 @@
+{
+  "bench": "xinji-bench/v2",
+  "track": "synthetic",
+  "seed": 2026,
+  "fingerprint": "38222a90a5bf7a59",
+  "n_conversations": 1000,
+  "dataset_stats": {
+    "messages": 32073,
+    "recall_probes": 4000,
+    "forbidden_probes": 3000,
+    "deletions": 2000,
+    "stage_events": 2000,
+    "conversations": 1000
+  },
+  "generated_at": "2026-11-01T14:53:17+00:00",
+  "strategies": {
+    "full-context": {
+      "recall_macro": 1.0,
+      "recall_micro": 1.0,
+      "violation_macro": 1.0,
+      "violation_micro": 1.0,
+      "mention_accuracy": 0.5714285714285714,
+      "resurrection_macro": 1.0,
+      "resurrection_micro": 1.0,
+      "stage_accuracy": null,
+      "stage_total": 2000,
+      "avg_tokens": 346.1138888888889,
+      "p95_tokens": 576.0,
+      "avg_ms": 0.0007541667323999314,
+      "p95_ms": 0.001600012183189392,
+      "probe_turns": 7000,
+      "phenomena_breakdown": {
+        "boundary": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 494
+        },
+        "fulfillment": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 506
+        },
+        "lift": {
+          "recall": 1.0,
+          "recall_total": 506,
+          "violation": null,
+          "violation_total": 0
+        },
+        "resurrection": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 2000
+        },
+        "season": {
+          "recall": 1.0,
+          "recall_total": 496,
+          "violation": null,
+          "violation_total": 0
+        },
+        "update": {
+          "recall": 1.0,
+          "recall_total": 504,
+          "violation": null,
+          "violation_total": 0
+        }
+      },
+      "wall_seconds": 1.58
+    },
+    "sliding-window": {
+      "recall_macro": 0.5850333333333333,
+      "recall_micro": 0.59925,
+      "violation_macro": 0.1745833333333333,
+      "violation_micro": 0.197,
+      "mention_accuracy": 0.6865714285714286,
+      "resurrection_macro": 0.0,
+      "resurrection_micro": 0.0,
+      "stage_accuracy": null,
+      "stage_total": 2000,
+      "avg_tokens": 135.87444444444444,
+      "p95_tokens": 198.0,
+      "avg_ms": 0.030206522352980554,
+      "p95_ms": 0.05300001066643745,
+      "probe_turns": 7000,
+      "phenomena_breakdown": {
+        "boundary": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 0.1720647773279352,
+          "violation_total": 494
+        },
+        "fulfillment": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 506
+        },
+        "lift": {
+          "recall": 1.0,
+          "recall_total": 506,
+          "violation": null,
+          "violation_total": 0
+        },
+        "resurrection": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 0.0,
+          "violation_total": 2000
+        },
+        "season": {
+          "recall": 0.4153225806451613,
+          "recall_total": 496,
+          "violation": null,
+          "violation_total": 0
+        },
+        "update": {
+          "recall": 1.0,
+          "recall_total": 504,
+          "violation": null,
+          "violation_total": 0
+        }
+      },
+      "wall_seconds": 0.89
+    },
+    "summary": {
+      "recall_macro": 1.0,
+      "recall_micro": 1.0,
+      "violation_macro": 1.0,
+      "violation_micro": 1.0,
+      "mention_accuracy": 0.5714285714285714,
+      "resurrection_macro": 1.0,
+      "resurrection_micro": 1.0,
+      "stage_accuracy": null,
+      "stage_total": 2000,
+      "avg_tokens": 455.3156666666667,
+      "p95_tokens": 713.0,
+      "avg_ms": 0.09439863332793014,
+      "p95_ms": 0.1784999913070351,
+      "probe_turns": 7000,
+      "phenomena_breakdown": {
+        "boundary": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 494
+        },
+        "fulfillment": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 506
+        },
+        "lift": {
+          "recall": 1.0,
+          "recall_total": 506,
+          "violation": null,
+          "violation_total": 0
+        },
+        "resurrection": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 2000
+        },
+        "season": {
+          "recall": 1.0,
+          "recall_total": 496,
+          "violation": null,
+          "violation_total": 0
+        },
+        "update": {
+          "recall": 1.0,
+          "recall_total": 504,
+          "violation": null,
+          "violation_total": 0
+        }
+      },
+      "wall_seconds": 2.69
+    },
+    "oag": {
+      "recall_macro": 0.68975,
+      "recall_micro": 0.69225,
+      "violation_macro": 0.9285,
+      "violation_micro": 0.92,
+      "mention_accuracy": 0.4298571428571429,
+      "resurrection_macro": 1.0,
+      "resurrection_micro": 1.0,
+      "stage_accuracy": null,
+      "stage_total": 2000,
+      "avg_tokens": 61.931666666666665,
+      "p95_tokens": 181.0,
+      "avg_ms": 0.0375283888085202,
+      "p95_ms": 0.09180000051856041,
+      "probe_turns": 7000,
+      "phenomena_breakdown": {
+        "boundary": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 0.5141700404858299,
+          "violation_total": 494
+        },
+        "fulfillment": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 506
+        },
+        "lift": {
+          "recall": 0.5434782608695652,
+          "recall_total": 506,
+          "violation": null,
+          "violation_total": 0
+        },
+        "resurrection": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 1.0,
+          "violation_total": 2000
+        },
+        "season": {
+          "recall": 0.0,
+          "recall_total": 496,
+          "violation": null,
+          "violation_total": 0
+        },
+        "update": {
+          "recall": 0.0,
+          "recall_total": 504,
+          "violation": null,
+          "violation_total": 0
+        }
+      },
+      "wall_seconds": 3.82
+    },
+    "xinji": {
+      "recall_macro": 1.0,
+      "recall_micro": 1.0,
+      "violation_macro": 0.0,
+      "violation_micro": 0.0,
+      "mention_accuracy": 1.0,
+      "resurrection_macro": 0.0,
+      "resurrection_micro": 0.0,
+      "stage_accuracy": 1.0,
+      "stage_total": 2000,
+      "avg_tokens": 177.7301111111111,
+      "p95_tokens": 285.0,
+      "avg_ms": 1.9407267332652636,
+      "p95_ms": 3.3064000017475337,
+      "probe_turns": 7000,
+      "phenomena_breakdown": {
+        "boundary": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 0.0,
+          "violation_total": 494
+        },
+        "fulfillment": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 0.0,
+          "violation_total": 506
+        },
+        "lift": {
+          "recall": 1.0,
+          "recall_total": 506,
+          "violation": null,
+          "violation_total": 0
+        },
+        "resurrection": {
+          "recall": null,
+          "recall_total": 0,
+          "violation": 0.0,
+          "violation_total": 2000
+        },
+        "season": {
+          "recall": 1.0,
+          "recall_total": 496,
+          "violation": null,
+          "violation_total": 0
+        },
+        "update": {
+          "recall": 1.0,
+          "recall_total": 504,
+          "violation": null,
+          "violation_total": 0
+        }
+      },
+      "wall_seconds": 254.83
+    }
+  }
+}

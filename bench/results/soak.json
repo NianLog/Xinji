@@ -1,0 +1,134 @@
+{
+  "soak": "xinji-bench/v2/soak",
+  "rounds": 5,
+  "conversations_per_round": 1000,
+  "all_ok": true,
+  "results": [
+    {
+      "seed": 2026,
+      "fingerprint": "38222a90a5bf7a59",
+      "ok": true,
+      "checks": {
+        "recall": true,
+        "violation": true,
+        "resurrection": true,
+        "stage": true,
+        "lift:recall": true,
+        "update:recall": true,
+        "season:recall": true,
+        "fulfillment:violation": true,
+        "boundary:violation": true,
+        "resurrection:violation": true
+      },
+      "metrics": {
+        "recall_macro": 1.0,
+        "violation_macro": 0.0,
+        "resurrection_macro": 0.0,
+        "stage_accuracy": 1.0,
+        "avg_tokens": 177.7301111111111,
+        "probe_turns": 7000
+      }
+    },
+    {
+      "seed": 2033,
+      "fingerprint": "e447ae285850055c",
+      "ok": true,
+      "checks": {
+        "recall": true,
+        "violation": true,
+        "resurrection": true,
+        "stage": true,
+        "lift:recall": true,
+        "update:recall": true,
+        "season:recall": true,
+        "fulfillment:violation": true,
+        "boundary:violation": true,
+        "resurrection:violation": true
+      },
+      "metrics": {
+        "recall_macro": 1.0,
+        "violation_macro": 0.0,
+        "resurrection_macro": 0.0,
+        "stage_accuracy": 1.0,
+        "avg_tokens": 177.9291111111111,
+        "probe_turns": 7000
+      }
+    },
+    {
+      "seed": 2040,
+      "fingerprint": "82688c9e6a7064f6",
+      "ok": true,
+      "checks": {
+        "recall": true,
+        "violation": true,
+        "resurrection": true,
+        "stage": true,
+        "lift:recall": true,
+        "update:recall": true,
+        "season:recall": true,
+        "fulfillment:violation": true,
+        "boundary:violation": true,
+        "resurrection:violation": true
+      },
+      "metrics": {
+        "recall_macro": 1.0,
+        "violation_macro": 0.0,
+        "resurrection_macro": 0.0,
+        "stage_accuracy": 1.0,
+        "avg_tokens": 177.95177777777778,
+        "probe_turns": 7000
+      }
+    },
+    {
+      "seed": 2047,
+      "fingerprint": "8be9e1e604f238fa",
+      "ok": true,
+      "checks": {
+        "recall": true,
+        "violation": true,
+        "resurrection": true,
+        "stage": true,
+        "lift:recall": true,
+        "update:recall": true,
+        "season:recall": true,
+        "fulfillment:violation": true,
+        "boundary:violation": true,
+        "resurrection:violation": true
+      },
+      "metrics": {
+        "recall_macro": 1.0,
+        "violation_macro": 0.0,
+        "resurrection_macro": 0.0,
+        "stage_accuracy": 1.0,
+        "avg_tokens": 177.6508888888889,
+        "probe_turns": 7000
+      }
+    },
+    {
+      "seed": 2054,
+      "fingerprint": "f7e6b458115049dc",
+      "ok": true,
+      "checks": {
+        "recall": true,
+        "violation": true,
+        "resurrection": true,
+        "stage": true,
+        "lift:recall": true,
+        "update:recall": true,
+        "season:recall": true,
+        "fulfillment:violation": true,
+        "boundary:violation": true,
+        "resurrection:violation": true
+      },
+      "metrics": {
+        "recall_macro": 1.0,
+        "violation_macro": 0.0,
+        "resurrection_macro": 0.0,
+        "stage_accuracy": 1.0,
+        "avg_tokens": 177.392,
+        "probe_turns": 7000
+      }
+    }
+  ],
+  "finished_at": "2026-11-01T15:35:34+00:00"
+}

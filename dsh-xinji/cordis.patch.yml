@@ -1,0 +1,11 @@
+# 心记 Xinji 的 DSH 组合包插入层。
+# 安装：dsh plugin --profile <name> add dsh-xinji-memory
+# 本地调试：dsh web --patch ./dsh-xinji/cordis.patch.yml
+- insert:
+    - id: xinji-memory
+      name: dsh-xinji-memory
+      config:
+        serverUrl: 'http://127.0.0.1:8642'
+        injectMemories: true
+        governanceTools: true
+        autoHear: true

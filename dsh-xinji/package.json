@@ -1,0 +1,27 @@
+{
+  "name": "dsh-xinji-memory",
+  "version": "1.0.0",
+  "description": "心记 Xinji × DeepSeek Harness：面向长期陪伴的关系记忆插件。记得住，说得对，忘得掉。",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "cordis", "memory", "xinji", "companion"],
+  "license": "MIT",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.1.0", "node": ">=20" },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/schemastery": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": { "optional": false },
+    "@deepseek-ai/dsh-tools": { "optional": true },
+    "@deepseek-ai/schemastery": { "optional": true }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NianLog/Xinji",
+    "directory": "dsh-xinji"
+  }
+}

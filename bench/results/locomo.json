@@ -1,0 +1,60 @@
+{
+  "bench": "xinji-bench/v1",
+  "track": "locomo",
+  "source": "snap-research/LoCoMo (CC BY-NC 4.0，仅研究用途)",
+  "n_conversations": 10,
+  "n_questions": 1977,
+  "generated_at": "2026-11-01T14:56:20+00:00",
+  "strategies": {
+    "full-context": {
+      "recall": 1.0,
+      "recall_total": 1531,
+      "induced_exposure": 1.0,
+      "induced_total": 446,
+      "avg_tokens": 5377.4,
+      "p95_tokens": 9830,
+      "avg_ms": 0.0,
+      "wall_seconds": 0.73
+    },
+    "sliding-window": {
+      "recall": 0.0274,
+      "recall_total": 1531,
+      "induced_exposure": 0.0224,
+      "induced_total": 446,
+      "avg_tokens": 17.4,
+      "p95_tokens": 22,
+      "avg_ms": 0.0,
+      "wall_seconds": 0.08
+    },
+    "summary": {
+      "recall": 0.1855,
+      "recall_total": 1531,
+      "induced_exposure": 0.139,
+      "induced_total": 446,
+      "avg_tokens": 3475.2,
+      "p95_tokens": 6342,
+      "avg_ms": 0.0,
+      "wall_seconds": 4.65
+    },
+    "oag": {
+      "recall": 0.4135,
+      "recall_total": 1531,
+      "induced_exposure": 0.4641,
+      "induced_total": 446,
+      "avg_tokens": 45.5,
+      "p95_tokens": 54,
+      "avg_ms": 2.72,
+      "wall_seconds": 7.45
+    },
+    "xinji": {
+      "recall": 0.4572,
+      "recall_total": 1531,
+      "induced_exposure": 0.4776,
+      "induced_total": 446,
+      "avg_tokens": 32.4,
+      "p95_tokens": 53,
+      "avg_ms": 78.41,
+      "wall_seconds": 169.61
+    }
+  }
+}
